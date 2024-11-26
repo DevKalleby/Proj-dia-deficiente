@@ -39,6 +39,7 @@ nav ul li a {
     padding: 10px 15px;
     display: block;
     transition: background 0.3s ease;
+
 }
 
 nav ul li a:hover {
@@ -51,14 +52,15 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    margin: 20px auto;
+    margin: 0 auto; /* Apenas margens laterais automáticas */
     background: white;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 1200px;
+    width: 80%; /* Reduz a largura para criar mais margem lateral */
+    max-width: 1200px; /* Limita a largura máxima em telas maiores */
     animation: slideUp 1s ease;
 }
+
 
 /* Imagens nas seções */
 .section .image {
